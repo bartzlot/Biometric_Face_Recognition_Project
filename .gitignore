@@ -1,0 +1,12 @@
+__pycache__/
+biometric_qr_codes/
+compared_images/
+dataset/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.pickle
+.DS_Store
+.env
