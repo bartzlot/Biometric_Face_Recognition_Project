@@ -2,6 +2,7 @@ __pycache__/
 biometric_qr_codes/
 compared_images/
 dataset/
+test_pictures/
 *.pyc
 *.pyo
 *.pyd

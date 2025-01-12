@@ -66,7 +66,7 @@ def compare_faces(biometric_data, image_path, threshold):
     if not match_found:
         for (top, right, bottom, left) in captured_face_locations:
             draw.rectangle([(left, top), (right, bottom)], outline="red", width=3)
-            text = f"No match found\nThreshold: {threshold}"
+            text = f"No match found\nThreshold: {threshold}\nProbability: {probability:.2f}%\nDistance: {distance:.2f}"
             draw.text((left, bottom + 10), text, fill="red", font=font)
 
     return pil_image, match_found
